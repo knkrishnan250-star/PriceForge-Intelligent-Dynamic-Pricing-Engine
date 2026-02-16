@@ -1,50 +1,19 @@
-PriceForge – Intelligent Dynamic Pricing Engine
+ PriceForge – Dynamic Pricing Engine
 
-PriceForge is a scalable, AI-ready dynamic pricing engine built using FastAPI and Python.
-It automatically adjusts product prices based on demand, stock levels, and real-time conditions.
+AI-ready dynamic pricing engine built using FastAPI.
 
 Features
+- Rule-based pricing
+- Demand adjustment
+- Stock-based surge
+- Time-based pricing
+- SQLite database
+- Modular architecture
 
-Rule-based pricing engine
+## Run Project
 
-ML-powered price prediction
+pip install -r requirements.txt
+uvicorn backend.main:app --reload
 
-REST API (FastAPI)
-
-PostgreSQL integration
-
-Historical price tracking
-
-Revenue simulation
-
-Elasticity modeling
-
-Swagger UI documentation
-
-Docker support
-
-Modular architecture
-
--Machine Learning Component
-
-Uses:
-
-Linear Regression
-
-Gradient Boosting (future)
-
-Elasticity estimation
-
--Tech Stack
-
-FastAPI
-
-SQLAlchemy
-
-PostgreSQL
-
-Scikit-learn
-
-Pandas
-
-Docker
+Visit:
+http://127.0.0.1:8000/docs
