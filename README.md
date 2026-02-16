@@ -35,7 +35,7 @@ Gradient Boosting (future)
 
 Elasticity estimation
 
-🛠 Tech Stack
+-Tech Stack
 
 FastAPI
 
